@@ -4,7 +4,7 @@
     <string name="editName2">정수 입력</string>
     <string name="btnPlus">더하기</string>
     <string name="btnMinus">빼기</string>
-    <string name="btnMultiple">곱하기</string>
+    <string name="btnMultiply">곱하기</string>
     <string name="btnDivide">나누기</string>
     <string name="textResult">계산 결과 : </string>
 </resources>
