@@ -12,17 +12,16 @@
         android:id="@+id/edit1"
         android:layout_width="@dimen/editWidth"
         android:layout_height="wrap_content"
-        android:hint="@dimen/editWidth"
         android:layout_marginBottom="@dimen/textSizeMedium"
-        android:text="@string/editName1"
+        android:hint="@string/editName1"
+        android:inputType="numberDecimal"
         android:textSize="@dimen/textSizeMedium"
         />
     <EditText
         android:id="@+id/edit2"
         android:layout_width="@dimen/editWidth"
         android:layout_height="wrap_content"
-        android:hint="@dimen/editWidth"
-        android:text="@string/editName2"
+        android:hint="@string/editName2"
         android:layout_marginBottom="@dimen/textSizeMedium"
         android:textSize="@dimen/textSizeMedium"
         />
@@ -53,6 +52,13 @@
         android:layout_height="wrap_content"
         android:hint="@dimen/editWidth"
         android:text="@string/btnDivide"
+        android:textSize="@dimen/textSizeMedium"/>
+    <Button
+        android:id="@+id/btnRest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@dimen/editWidth"
+        android:text="@string/btnRest"
         android:textSize="@dimen/textSizeMedium"/>
     <TextView
         android:id="@+id/textResult"
